@@ -20,7 +20,12 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://tradeflow-frontend-g9gu.onrender.com",
+      "https://tradeflowtradeflow-dashboard.onrender.com",
+    ],
     credentials: true,
   }),
 );
