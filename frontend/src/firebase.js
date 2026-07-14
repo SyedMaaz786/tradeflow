@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAJvK_m8SdbuulhMIcNs7wMJw-7iuyuw28",
-  authDomain: "tradeflow-c41e6.firebaseapp.com",
-  projectId: "tradeflow-c41e6",
-  storageBucket: "tradeflow-c41e6.firebasestorage.app",
-  messagingSenderId: "267112988953",
-  appId: "1:267112988953:web:ad33cccf7945ebb04f0588",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);

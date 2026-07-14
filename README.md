@@ -72,7 +72,7 @@ tradeflow/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tradeflow.git
+git clone https://github.com/SyedMaaz786/tradeflow
 ```
 
 Move inside project
