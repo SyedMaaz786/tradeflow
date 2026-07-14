@@ -1,0 +1,43 @@
+# =========================
+# Node Modules
+# =========================
+**/node_modules/
+
+# =========================
+# Environment Files
+# =========================
+**/.env
+
+# Firebase Service Account
+backend/firebase-service-account.json
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# =========================
+# Build folders
+# =========================
+frontend/build/
+dashboard/build/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Misc
+# =========================
+coverage/
+.cache/
