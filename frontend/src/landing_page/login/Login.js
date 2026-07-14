@@ -37,7 +37,7 @@ function Login() {
 
       localStorage.setItem("token", token);
 
-      window.location.href = `http://localhost:3001?token=${token}`;
+      window.location.href = `https://tradeflowtradeflow-dashboard.onrender.com?token=${token}`;
     } catch (err) {
       setError(err.message);
     }
